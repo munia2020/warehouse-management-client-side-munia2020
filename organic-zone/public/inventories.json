@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "New Arrival Fruits",
+        "description": "Common and unusual tropical fruits include the acerola cherry, avocado, banana, bitter orange, breadfruit, carambola (starfruit), chironja (orangelo—a combination of orange and pomelo), coconut, cucumber, frambuesa (raspberries), grapefruit.",
+        "price": "3500",
+        "quantity":"5 units",
+        "supplier": "Kate",
+        "img": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 2,
+        "name": "Fruits for Health",
+        "description": "One of the reasons for this is that chefs like tropical fruits because they afford them the versatility to change the look and nature of their meal presentations and offer them a high level of flexibility. .",
+        "price": "3500",
+        "quantity":"5 units",
+        "supplier": "Willium",
+        "img": "https://images.unsplash.com/photo-1573246123716-6b1782bfc499?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80"
+    },
+    {
+        "id": 3,
+        "name": "Tropical Fruits",
+        "description": "Tropical fruits are finding their way to supermarket shelves, worldwide, as juice blends, natural flavors, dried fruit mixes, marmalades, jams, jellies, and other confections. These items are sometimes interchangeable in the vernacular.",
+        "price": "3500",
+        "quantity":"5 units",
+        "supplier": "Harry",
+        "img": "https://images.unsplash.com/photo-1628689469838-524a4a973b8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Farm Fresh Vegetables",
+        "description": "Tropical vegetables such as the winged bean, jicama, chayote and malanga thrive in the Florida heat, as do sweet potatoes, cassava and calabaza. The longer growing season we experience on the Treasure Coast is what tropical vegetables require and their appearance and growth habits add beautifully to the landscape.",
+        "price": "3500",
+        "quantity":"5 units",
+        "supplier": "Angella",
+        "img": "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Super Sale Vegetables",
+        "description": "Economic of cultivation of tropical and sub-tropical vegetable crops; post-harvest handling and storage. Marketing of tomato, brinjal, chillies, okra, amaranthus, cluster beans, cowpea, lab-lab, snap bean, cucurbits, moringa, curry leaf, portulaca and basella.",
+        "price": "3500",
+        "quantity":"5 units",
+        "supplier": "Reddi",
+        "img": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 6,
+        "name": "Vegetable Organic",
+        "description": "starchy and green vegetable dishes include batatas en almíbar (candied sweet potatoes), berzas and grelos (collard and turnip greens), chayotes rellenos (stuffed baked chayote squash), frijoles negros(black beans), quimbombo guisado (stewed okra), papas empanada al horno (potato pudding), and papas y zanahorias (roasted potatoes and carrots).",
+        "price": "3500",
+        "quantity":"5 units",
+        "supplier": "Kevin",
+        "img": "https://images.unsplash.com/photo-1591586116988-62fe65164f8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1010&q=80"
+    }
+]

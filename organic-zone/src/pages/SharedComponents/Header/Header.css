@@ -1,0 +1,55 @@
+.header-background {
+    background-color: #78bc16;
+    /* height: 10vh; */
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-items {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 1em;
+    color: chartreuse;
+    transition: color ease-in-out 300ms;
+  }
+
+
+  .link:hover {
+    color: tomato;
+  }
+  
+  .active-link {
+    text-decoration: none;
+    margin-left: 1em;
+    transition: color ease-in-out 300ms;
+    color: white;
+  }
+
+  .sign-out-button {
+    background-color: #78bc16;
+    font-size: 1.09rem;
+    border: none;
+    outline: none;
+    /* text-decoration: none; */
+    margin-left: 1em;
+    color: forestgreen;
+    /* transition: color ease-in-out 300ms; */
+  }
+
+  .sign-out-button:hover {
+      color: tomato;
+  }
