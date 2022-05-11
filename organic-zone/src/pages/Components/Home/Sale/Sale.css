@@ -6,7 +6,8 @@
 
 .summer-special h1 {
     font-family: sans-serif;
-    color: rgb(255, 94, 0);
+    /* color: rgb(255, 94, 0); */
+    color: #78bc16;
     font-size: 2.7rem;
     margin-top: 3em;
 }
@@ -22,6 +23,20 @@
     font-weight: 200;
 }
 
+.sale-btn {
+    background-color: #78bc16;
+    border: none;
+    border-radius: 2em;
+    padding: .5em 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.sale-btn:hover {
+    color: #78bc16;
+    background-color: black;
+}
+
 
 .summer-single-item-1{
     border-radius: .3em;
@@ -29,28 +44,22 @@
     height: 45vh;
     object-fit: cover;
     background-position: center;
-    background-image: url('https://images.unsplash.com/photo-1619846227717-205b9dccac17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
+    background-image: url('https://images.unsplash.com/photo-1622528448260-39e8229eb10c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
 }
 
-/* .summer-single-item-1:hover{
+.summer-single-item-1:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-} */
-
-.summer-single-item-1:hover{
-    /* -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8); */
-    transition: all 0.4s ease-in-out;
 }
+
 .summer-single-item-2{
     border-radius: .3em;
     width: 30%;
     height: 45vh;
     object-fit: cover;
     background-position: center;
-    background-image: url('https://images.unsplash.com/photo-1621659911279-b08ce9ff421f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
+    background-image: url('https://images.unsplash.com/photo-1577041249022-26cc744ddda3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
 }
 
 .summer-single-item-2:hover{
