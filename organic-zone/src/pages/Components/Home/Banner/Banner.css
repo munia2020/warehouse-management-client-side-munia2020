@@ -34,6 +34,7 @@
 
 .banner-btn {
     background-color: #78bc16;
+    text-decoration: none;
     border: none;
     border-radius: 2em;
     padding: .7em 3em;

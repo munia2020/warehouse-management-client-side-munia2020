@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Banner.css";
 
 const Banner = () => {
@@ -11,7 +12,9 @@ const Banner = () => {
           WE ARE HERE TO MAKE GLOBAL ORGANIC TRADE EASY! A PLATFORM THAT
           CONNECTS ORGANIC FOOD SUPPLIERS WITH WHOLESALE BUYERS.
         </h3>
-        <button className="banner-btn">CONTACT US</button>
+        <br />
+        {/* <button className="banner-btn">CONTACT US</button> */}
+        <Link to='/contact' className="banner-btn">CONTACT US</Link>
       </div>
     </div>
   );
