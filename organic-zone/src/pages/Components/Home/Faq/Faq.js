@@ -19,10 +19,6 @@ const Faq = () => {
           </Link>
         </div>
       </div>
-      <br />
-      <div className="faq-container-2">
-          
-      </div>
     </div>
   );
 };
