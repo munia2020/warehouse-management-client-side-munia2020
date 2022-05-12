@@ -4,7 +4,7 @@ import { Accordion, Button } from "react-bootstrap";
 
 const QusAns = () => {
   return (
-    <div>
+    <div className="qus-ans">
       <h1 className="accor-h1">Frequently Asked Questions</h1>
       <div className="accordion-container">
         <div className="accor-container">

@@ -1,18 +1,23 @@
+
 .accordion-container{
     width: 85%;
     margin: 0 auto;
-    margin-bottom: 3em;
     display: flex;
     justify-content: center;
     padding: 2em;
     background-color: #f8f8f8;
-    
-    
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07); */
 }
 
 .accor-h1{
     text-align: center;
-    color: #454545;
+    color: #78bc16;
+    margin-top: 3em;
 }
 
 .accor-container{
