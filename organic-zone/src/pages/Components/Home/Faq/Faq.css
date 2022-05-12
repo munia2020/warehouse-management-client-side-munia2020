@@ -1,0 +1,36 @@
+.faq-container{
+    margin: 4em 0;
+    font-family: sans-serif;
+}
+
+.faq-container-1 {
+    background-color: #78bc16;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-text{
+    /* border: 1px solid blue; */
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
+    color: white;
+}
+
+.faq-text p {
+    width: 85%;
+    text-align: center;
+}
+
+.faq-btn {
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 2em;
+    padding: .5em 3em;
+    /* font-weight: bold; */
+    color: #78bc16;
+}
