@@ -1,6 +1,7 @@
 import React from "react";
 import "./Faq.css";
 import { Link } from "react-router-dom";
+import { Accordion } from "react-bootstrap";
 
 const Faq = () => {
   return (
@@ -14,9 +15,13 @@ const Faq = () => {
             allows us to provide everyone a free membership.
           </p>
           <Link to="/about" className="faq-btn">
-            Learn More About Us
+            <small>Learn More About Us</small>
           </Link>
         </div>
+      </div>
+      <br />
+      <div className="faq-container-2">
+          
       </div>
     </div>
   );

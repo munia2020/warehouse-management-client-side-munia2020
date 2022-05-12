@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './pages/SharedComponents/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Components/Home/Home/Home';

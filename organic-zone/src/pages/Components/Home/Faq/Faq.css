@@ -30,7 +30,12 @@
     text-decoration: none;
     border: none;
     border-radius: 2em;
-    padding: .5em 3em;
+    padding: .3em 3em;
     /* font-weight: bold; */
     color: #78bc16;
+}
+
+.faq-btn:hover{
+    background-color: lime;
+    color: black;
 }
