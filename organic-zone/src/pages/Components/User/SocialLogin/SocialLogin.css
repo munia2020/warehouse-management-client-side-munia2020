@@ -1,0 +1,16 @@
+.social-btn {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-text {
+  text-align: center;
+}
+
+.social-btn span {
+  padding: 0.5em 0;
+}

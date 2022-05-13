@@ -1,3 +1,5 @@
+import React from "react";
+import './RequiredAuth.css';
 import { ToastContainer } from "react-bootstrap";
 import { useAuthState, useSendEmailVerification } from "react-firebase-hooks/auth";
 import { Navigate, useLocation } from "react-router-dom";
@@ -14,9 +16,6 @@ const RequireAuth = ({ children }) => {
     if (loading) {
       return <Loading></Loading>;
     }
-    // if (user) {
-    //     return <Navigate to="/checkout" state={{ from: location }} replace />;
-    // }
   
     if (!user) {
       return <Navigate to="/login" state={{ from: location }} replace />;

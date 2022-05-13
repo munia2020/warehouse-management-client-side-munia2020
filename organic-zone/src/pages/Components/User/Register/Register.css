@@ -1,0 +1,43 @@
+.register-form {
+  margin: 0 auto;
+  width: 50%;
+  box-shadow: rgb(155, 146, 146) 0px 30px 90px;
+  border-radius: 0.5em;
+  margin: 6em auto;
+  padding: 2em;
+  font-family: serif;
+  /* text-align: center; */
+}
+.register-form input:not([type="checkbox"]) {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.padding {
+  padding-left: 2em;
+}
+.text-danger {
+  color: orangered;
+  font-weight: 500;
+}
+
+.to-login {
+  text-decoration: none;
+  color: #002d62;
+  font-weight: bolder;
+}
+
+.to-login:hover {
+  color: #7cb9e8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .register-form {
+    width: 80%;
+  }
+}
