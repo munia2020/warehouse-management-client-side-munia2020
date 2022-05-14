@@ -1,0 +1,29 @@
+.detail-container {
+    /* width: 85%; */
+    /* margin: 0 auto; */
+    /* margin-top: 2em; */
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.detail-img-div{
+    width: 45%;
+    border: 1px solid green;
+}
+
+.detail-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.detail-img-text{
+    width: 52%;
+    text-align: left;
+}
+
+.detail-img-text h1 {
+    color: #78bc16;
+}

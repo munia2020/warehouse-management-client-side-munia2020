@@ -10,6 +10,8 @@ import Login from './pages/Components/User/Login/Login';
 import Register from './pages/Components/User/Register/Register';
 import ContactUs from './pages/Components/ContactUs/ContactUs';
 import AboutUs from './pages/Components/AboutUs/AboutUs';
+import RequireAuth from './pages/Components/User/RequireAuth/RequireAuth'
+import InventoryDetail from './pages/Components/Home/InventoryDetail/InventoryDetail';
 
 function App() {
   return (
@@ -24,6 +26,11 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/inventory/:id' element={
+          <RequireAuth>
+            <InventoryDetail></InventoryDetail>
+          </RequireAuth>
+        }></Route>
       </Routes>
     </div>
   );
