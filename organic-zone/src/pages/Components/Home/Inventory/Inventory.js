@@ -21,7 +21,7 @@ const Inventory = ({inventory}) => {
                 <p>Supplier Name: {supplier}</p>
                 <div className='price-quantity'>
                     <p>Price: $ <span>{price}</span></p>
-                    <p>Quantity: <span>{quantity}</span></p>
+                    <p>Quantity: <span>{quantity} units</span></p>
                 </div>
                 <button onClick={() => navigateToInventoryDetail(_id)} className='single-item-btn'>Update Stock</button>
             </div>

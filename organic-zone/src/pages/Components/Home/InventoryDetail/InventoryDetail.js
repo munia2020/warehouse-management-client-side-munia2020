@@ -5,21 +5,70 @@ import "./InventoryDetail.css";
 const InventoryDetail = () => {
   const { id } = useParams();
   const [inventory, setInventory] = useState({});
-  const [delivered, setDelivered] = useState();
-
-  const handleDelivered = () => {
-      if (delivered > 0){
-          setDelivered(delivered -1)
-      }
-    
-  }
+  console.log(inventory);
 
   useEffect(() => {
     const url = `http://localhost:5000/inventory/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setInventory(data));
-  }, []);
+  }, [id]);
+
+  // * ui can be updated by this way (uzzal vai)
+  const updateUi = () => {
+    const url = `http://localhost:5000/inventory/${id}`;
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setInventory(data));
+  }
+
+  const quantityDecrease = (newQuantity) => {
+    let quantity = parseInt(newQuantity) - 1;
+    console.log(quantity)
+    const updateQuantity = { quantity };
+    const url = `http://localhost:5000/inventory/${id}`;
+
+    fetch(url, {
+      method: "PUT",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(updateQuantity),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("success", data);
+        // alert("saved");
+        updateUi()
+      });
+      
+  };
+  const handleUpdateQuantity = (event) =>{
+    event.preventDefault();
+    const quantity = parseInt(event.target.quantity.value) + parseInt(inventory.quantity)
+    // console.log(quantity)
+
+    const updatedUser = {quantity};
+
+    const url = `http://localhost:5000/user/${id}`;
+    fetch(url, {
+        method: 'PUT',
+        headers: {
+            'content-type': 'application/json'
+        },
+        body: JSON.stringify(updatedUser)
+    })
+    .then(res => res.json())
+    .then(data =>{
+        console.log('success', data);
+        event.target.reset();
+        updateUi()
+    })
+    
+};
+
+
+
   return (
     <div className="detail-container">
       <div className="detail-img-div">
@@ -36,10 +85,16 @@ const InventoryDetail = () => {
             Price: $ <span>{inventory.price}</span>
           </p>
           <p>
-            Quantity: <span>{inventory.quantity}</span>
+            Quantity: <span>{inventory.quantity}</span> units
           </p>
           <br />
-          <button onClick={handleDelivered}>Delivered</button>
+          <button onClick={() => quantityDecrease(inventory.quantity)}>Delivered</button>
+          <br />
+          <h2>Update Stock</h2>
+          <form onSubmit={handleUpdateQuantity}>
+            <input type="number" name="quantity" placeholder="stock amount" required />
+            <input type="submit" value="Update Stock" />
+          </form>
         </div>
       </div>
     </div>
