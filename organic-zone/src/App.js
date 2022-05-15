@@ -12,6 +12,7 @@ import ContactUs from './pages/Components/ContactUs/ContactUs';
 import AboutUs from './pages/Components/AboutUs/AboutUs';
 import RequireAuth from './pages/Components/User/RequireAuth/RequireAuth'
 import InventoryDetail from './pages/Components/Home/InventoryDetail/InventoryDetail';
+import ManageInventories from './pages/Components/Home/ManageInventories/ManageInventories';
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
         <Route path='/inventory/:id' element={
           <RequireAuth>
             <InventoryDetail></InventoryDetail>
+          </RequireAuth>
+        }></Route>
+        <Route path='/manageinventories' element={
+          <RequireAuth>
+            <ManageInventories></ManageInventories>
           </RequireAuth>
         }></Route>
       </Routes>

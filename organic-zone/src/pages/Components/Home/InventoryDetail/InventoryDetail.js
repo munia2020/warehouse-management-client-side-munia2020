@@ -87,13 +87,14 @@ const InventoryDetail = () => {
           <p>
             Quantity: <span>{inventory.quantity}</span> units
           </p>
+          <button className="deliver-btn" onClick={() => quantityDecrease(inventory.quantity)}>Delivered</button>
           <br />
-          <button onClick={() => quantityDecrease(inventory.quantity)}>Delivered</button>
           <br />
-          <h2>Update Stock</h2>
+          <br />
+          <h3>Update Stock</h3>
           <form onSubmit={handleUpdateQuantity}>
-            <input type="number" name="quantity" placeholder="stock amount" required />
-            <input type="submit" value="Update Stock" />
+            <input className="input-field" type="number" name="quantity" placeholder="stock amount" required />
+            <input className="deliver-btn" type="submit" value="Update Stock" />
           </form>
         </div>
       </div>

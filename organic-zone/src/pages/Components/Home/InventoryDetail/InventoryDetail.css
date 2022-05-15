@@ -1,16 +1,11 @@
 .detail-container {
-    /* width: 85%; */
-    /* margin: 0 auto; */
-    /* margin-top: 2em; */
     background-color: #f8f8f8;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 .detail-img-div{
     width: 45%;
-    border: 1px solid green;
 }
 
 .detail-img {
@@ -26,4 +21,25 @@
 
 .detail-img-text h1 {
     color: #78bc16;
+}
+
+.deliver-btn {
+    background-color: #78bc16;
+    border: none;
+    border-radius: 2em;
+    padding: .3em 2em;
+    color: white;
+}
+
+.deliver-btn:hover{
+    color: #78bc16;
+    background-color: black;
+}
+
+.price-quantity h3 {
+    color: #78bc16;
+}
+
+.input-field {
+    border: 4px solid #78bc16;
 }
