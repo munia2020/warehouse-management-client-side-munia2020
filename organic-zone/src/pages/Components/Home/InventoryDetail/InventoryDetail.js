@@ -50,7 +50,7 @@ const InventoryDetail = () => {
 
     const updatedUser = {quantity};
 
-    const url = `http://localhost:5000/user/${id}`;
+    const url = `http://localhost:5000/inventory/${id}`;
     fetch(url, {
         method: 'PUT',
         headers: {
