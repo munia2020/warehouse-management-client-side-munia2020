@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card } from "react-bootstrap";
-import ManageSingle from "../ManageSingle/ManageSingle";
+import { Link } from "react-router-dom";
 import "./ManageInventories.css";
 
 const ManageInventories = () => {
@@ -53,6 +53,7 @@ const ManageInventories = () => {
           </div>
         ))}
       </div>
+      <Link className="banner-btn" to="/myitems">Add items</Link>
     </div>
   );
 };
