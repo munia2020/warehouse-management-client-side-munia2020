@@ -1,12 +1,15 @@
 .blogs {
   text-align: center;
   font-family: serif;
-  margin: 3em 0;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-color: #f8f8f8;
 }
 .blogs h1 {
-  margin: 1.5em 0;
+  margin: .8em 0;
   font-size: 2.5rem;
-  color: #002d62;
+  color: #78bc16;
 }
 
 .blogs-container {
@@ -14,7 +17,7 @@
   justify-content: space-around;
 }
 .blogs-container h3 {
-  color: #00308f;
+  color: #78bc16;
   font-size: 1.5rem;
 }
 
@@ -25,8 +28,9 @@
 .blog {
   text-align: justify;
   padding: 1em;
-  width: 25%;
+  width: 19%;
   border-radius: 1em;
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -37,8 +41,10 @@
   }
   .blogs-container {
     flex-direction: column;
+    align-items: center;
   }
   .blog {
     width: 80%;
+    margin-bottom: 1em;
   }
 }
