@@ -6,7 +6,7 @@ import "./ManageInventories.css";
 const ManageInventories = () => {
   const [inventories, setInventories] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/inventory")
+    fetch("https://intense-brushlands-99652.herokuapp.com/inventory")
       .then((res) => res.json())
       .then((data) => setInventories(data));
   }, []);
@@ -15,7 +15,7 @@ const ManageInventories = () => {
     const proceed = window.confirm("Do you really want to delete?");
     if (proceed) {
       console.log("deleting , ", id);
-      const url = `http://localhost:5000/inventory/${id}`;
+      const url = `https://intense-brushlands-99652.herokuapp.com/inventory/${id}`;
       fetch(url, {
         method: "DELETE",
       })

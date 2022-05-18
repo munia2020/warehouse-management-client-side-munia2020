@@ -8,7 +8,7 @@
 //     const [items, setItems] = useState([]);
 //     console.log(items)
 //     useEffect(()=>{
-//         fetch(`http://localhost:5000/inventory/${user?.email}`)
+//         fetch(`https://intense-brushlands-99652.herokuapp.com/inventory/${user?.email}`)
 //         .then(res=>res.json())
 //         .then(data => console.log(data))
 //     },[user.email]);

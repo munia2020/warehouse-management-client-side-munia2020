@@ -9,7 +9,7 @@ const MyItem = () => {
 
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/inventory`;
+        const url = `https://intense-brushlands-99652.herokuapp.com/inventory`;
         fetch(url, {
             method: 'POST',
             headers: {

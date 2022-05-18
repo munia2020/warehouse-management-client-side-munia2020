@@ -8,7 +8,7 @@ const InventoryDetail = () => {
   console.log(inventory);
 
   useEffect(() => {
-    const url = `http://localhost:5000/inventory/${id}`;
+    const url = `https://intense-brushlands-99652.herokuapp.com/inventory/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setInventory(data));
@@ -16,7 +16,7 @@ const InventoryDetail = () => {
 
   // * ui can be updated by this way (uzzal vai)
   const updateUi = () => {
-    const url = `http://localhost:5000/inventory/${id}`;
+    const url = `https://intense-brushlands-99652.herokuapp.com/inventory/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setInventory(data));
@@ -26,7 +26,7 @@ const InventoryDetail = () => {
     let quantity = parseInt(newQuantity) - 1;
     console.log(quantity)
     const updateQuantity = { quantity };
-    const url = `http://localhost:5000/inventory/${id}`;
+    const url = `https://intense-brushlands-99652.herokuapp.com/inventory/${id}`;
 
     fetch(url, {
       method: "PUT",
@@ -50,7 +50,7 @@ const InventoryDetail = () => {
 
     const updatedUser = {quantity};
 
-    const url = `http://localhost:5000/inventory/${id}`;
+    const url = `https://intense-brushlands-99652.herokuapp.com/inventory/${id}`;
     fetch(url, {
         method: 'PUT',
         headers: {
