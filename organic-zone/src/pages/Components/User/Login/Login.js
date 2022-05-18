@@ -60,7 +60,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <h2 className="login-text">Login to Continue ...</h2>
-      <Form onSubmit={handleSubmit}>
+      <Form className="login-all" onSubmit={handleSubmit}>
         <Form.Group className="login-inputs" controlId="formBasicEmail">
           <Form.Control
             className="input-txt"
@@ -85,7 +85,7 @@ const Login = () => {
       </Form>
       {errorElement}
       <p>
-        New to Creative Dentistry?{" "}
+        New to Organic Zone?{" "}
         <Link to="/register" className="to-register" onClick={navigateRegister}>
           Please Register
         </Link>{" "}

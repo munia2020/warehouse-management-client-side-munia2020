@@ -34,7 +34,7 @@ const SocialLogin = () => {
           <p>or, continue with Google</p>
         </div>
         {errorElement}
-        <div>
+        <div className='social-btn-div'>
           <button onClick={() => signInWithGoogle()} className="social-btn">
             <img style={{ width: "30px" }} src={google} alt="" />
             <span>Google Sign In</span>

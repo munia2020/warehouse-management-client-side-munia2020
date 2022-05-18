@@ -1,16 +1,26 @@
 .social-btn {
+  border: none;
+  text-align: left;
   width: 50%;
-  margin: 0 auto;
-  background-color: white;
+  background-color:#78bc16;
+  color: white;
+  border-radius: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+.social-btn:hover{
+  background-color: green;
 }
 
 .social-text {
-  text-align: center;
+  text-align: left;
 }
-
+.social-btn-div{
+  text-align: left;
+}
 .social-btn span {
   padding: 0.5em 0;
 }

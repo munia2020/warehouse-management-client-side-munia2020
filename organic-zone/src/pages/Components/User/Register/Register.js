@@ -40,8 +40,8 @@ const Register = () => {
 
   return (
     <div className="register-form">
-      <h2 style={{ textAlign: "center" }}>
-        New to Creative Dentistry? <br /> Please Register ...
+      <h2 style={{ textAlign: "left" }}>
+        New to Organic Zone? <br /> Please Register ...
       </h2>
       <form onSubmit={handleRegister} className="form">
         <input type="text" name="name" id="" placeholder="Your Name" />
@@ -76,7 +76,7 @@ const Register = () => {
         <br />
         <br />
         <input
-          style={{ backgroundColor: "skyblue" }}
+          style={{ backgroundColor: "#78bc16" }}
           disabled={!agree}
           className="input-btn"
           type="submit"
