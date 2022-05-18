@@ -1,6 +1,8 @@
 import React from 'react';
 import './MyItem.css';
 import { useForm } from 'react-hook-form';
+import AddedItems from '../AddedItems/AddedItems';
+import { Link } from 'react-router-dom';
 
 const MyItem = () => {
     const { register, handleSubmit } = useForm();
@@ -18,6 +20,7 @@ const MyItem = () => {
         .then(res=> res.json())
         .then(result =>{
             console.log(result);
+            alert('Your item added sucessfully. Go to manage inventories to check');
         } )
     };
     return (
@@ -32,6 +35,9 @@ const MyItem = () => {
                 <input className='mb-2' placeholder='Photo URL' type="text" {...register("img")} />
                 <input className='banner-btn' type="submit" value="Add Item" />
             </form>
+            <br />
+            <Link className="back-btn" to="/manageinventories">Back to Manage Inventories</Link>
+            {/* <AddedItems></AddedItems> */}
         </div>
     );
 };

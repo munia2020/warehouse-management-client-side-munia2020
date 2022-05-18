@@ -69,3 +69,18 @@
     height: 40vh;
     object-fit: cover;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .contact-width{
+        flex-direction: column;
+        width: 98%;
+        align-items: center;
+    }
+    .contact-text{
+        width: 100%;
+        order: 2;
+    }
+    .contact-img-container{
+        width: 100%;
+    }
+}

@@ -1,35 +1,43 @@
-.manage-inventories{
-    width: 90%;
-    margin: 0 auto;
-    background-color: #f8f8f8;
-    text-align: center;
-    /* border: 1px solid #78bc16; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.manage-inventories {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  text-align: center;
+  /* border: 1px solid #78bc16; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.manage-inventories h1 {
+  color: #78bc16;
+}
 
 .manage-inventories-container {
-    margin: 2em 0;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4em;
-    /* border: 1px solid #78bc16; */
+  margin: 2em 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+  /* border: 1px solid #78bc16; */
 }
 
 .manage-single-card {
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    .manage-inventories-container {
-        margin: 2em 0;
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 4em;
-    }
+  .manage-inventories {
+    background-color: white;
+    margin: 2em auto;
+  }
+  .manage-inventories-container {
+    margin: 2em 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4em;
+  }
 }

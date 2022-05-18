@@ -36,3 +36,17 @@
     height: 39vh;
     object-fit: cover;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .accordion-container{
+        width: 98%;
+        flex-direction: column;
+    }
+    .accor-container{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .accor-img-container{
+        width: 100%;
+    }
+}

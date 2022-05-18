@@ -82,3 +82,26 @@
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .summer-special{
+        width: 98%;
+    }
+    .summer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .summer-single-item-1{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .summer-single-item-2{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .summer-single-item-3{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+  }

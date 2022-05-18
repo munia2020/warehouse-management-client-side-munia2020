@@ -1,48 +1,60 @@
 .banner-background {
-    /* background-image: url('https://images.unsplash.com/photo-1562347810-18a0d370ba36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
-    /* background-image: url('https://images.unsplash.com/photo-1524222717473-730000096953?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
-    background-image: url('https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  /* background-image: url('https://images.unsplash.com/photo-1562347810-18a0d370ba36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1524222717473-730000096953?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'); */
+  background-image: url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-text {
-    width: 85%;
-    font-family: sans-serif;
-    text-align: center;
+  width: 85%;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-.banner-text h1{
-    color: #78bc16;
-    font-size: 3.5rem;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
+.banner-text h1 {
+  color: #78bc16;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .banner-text h3 {
-    color: darkgreen;
-    font-size: 1.3rem;
+  color: darkgreen;
+  font-size: 1.3rem;
 }
 
 .banner-btn {
-    background-color: #78bc16;
-    text-decoration: none;
-    border: none;
-    border-radius: 2em;
-    padding: .7em 3em;
-    font-weight: bolder;
-    color: white;
+  background-color: #78bc16;
+  text-decoration: none;
+  border: none;
+  border-radius: 2em;
+  padding: 0.7em 3em;
+  font-weight: bolder;
+  color: white;
 }
 
 .banner-btn:hover {
-    color: #78bc16;
-    background-color: black;
+  color: #78bc16;
+  background-color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .banner-background {
+    height: 100vh;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-text h3 {
+    font-size: 1rem;
+  }
 }

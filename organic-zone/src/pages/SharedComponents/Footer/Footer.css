@@ -20,3 +20,12 @@
 .footer-items {
     padding-left: 2.5em;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .footer-divs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  }

@@ -45,3 +45,21 @@
     color: #78bc16;
     background-color: black;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .single-item{
+        width: 95%;
+        margin: 2em auto;
+        flex-direction: column;
+        box-shadow: none;
+        align-items: center;
+    }
+
+    .single-item-img-container{
+        width: 90%;
+    }
+    .single-item-details{
+        width: 90%;
+        text-align: justify;
+    }
+  }
