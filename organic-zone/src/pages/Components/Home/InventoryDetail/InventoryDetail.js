@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./InventoryDetail.css";
 
 const InventoryDetail = () => {
@@ -96,6 +96,11 @@ const InventoryDetail = () => {
             <input className="input-field" type="number" name="quantity" placeholder="stock amount" required />
             <input className="deliver-btn" type="submit" value="Update Stock" />
           </form>
+          <br />
+          <br />
+          <h3>Manage Inventories</h3>
+          <br />
+          <Link to="/manageinventories" className="banner-btn">Manage Inventories</Link>
         </div>
       </div>
     </div>
