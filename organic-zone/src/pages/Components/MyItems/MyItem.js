@@ -1,7 +1,6 @@
 import React from 'react';
 import './MyItem.css';
 import { useForm } from 'react-hook-form';
-import AddedItems from '../AddedItems/AddedItems';
 import { Link } from 'react-router-dom';
 
 const MyItem = () => {
